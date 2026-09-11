@@ -26,7 +26,7 @@ const About = () => {
     {
       icon: <Cpu size={24} color="#8b5cf6" />,
       title: "Full Stack & AI SaaS Engineering",
-      description: "Building production-grade applications with React, Express, Node.js, MongoDB, PostgreSQL, and LLM integrations."
+      description: "Building production-grade applications with React, Express, Node.js, MongoDB, SQL, and LLM integrations."
     },
     {
       icon: <Award size={24} color="#10b981" />,

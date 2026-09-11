@@ -88,7 +88,7 @@
     {
       "id": "s-10",
       "category": "Database",
-      "name": "SQL & PostgreSQL",
+      "name": "SQL",
       "level": 85,
       "icon": "HardDrive"
     },
@@ -164,7 +164,7 @@
       "category": "Fullstack",
       "description": "Production-ready AI SaaS application serving multiple content-generation and image-processing workflows by integrating LLMs, computer vision APIs, authentication systems, and cloud storage. Features scalable architecture with premium subscriptions, AI-powered resume reviews, and real-time user dashboards.",
       "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
-      "tags": ["React", "Express.js", "PostgreSQL", "Clerk Auth", "LLMs", "Computer Vision APIs", "Cloud Storage"],
+      "tags": ["React", "Express.js", "SQL", "Clerk Auth", "LLMs", "Computer Vision APIs", "Cloud Storage"],
       "liveUrl": "",
       "githubUrl": "https://github.com",
       "featured": true
