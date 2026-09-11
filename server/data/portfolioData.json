@@ -1,0 +1,234 @@
+{
+  "profile": {
+    "name": "Yash Kodgirwar",
+    "title": "Full Stack MERN Developer & AI Systems Specialist",
+    "tagline": "B.Tech IT (9.33 CGPA) | Building scalable web architectures, AI SaaS platforms, and modern full-stack systems.",
+    "bio": "I am an Information Technology undergraduate at G.H. Raisoni College of Engineering and Management, Pune with a CGPA of 9.33/10. Experienced in developing production-grade MERN applications, AI SaaS platforms, and intelligent machine learning forensic systems. Winner of Smart India Hackathon (Internal Round 2025).",
+    "email": "yashkodgirwar@gmail.com",
+    "phone": "+91-9373536178",
+    "location": "Pune, Maharashtra, India",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80",
+    "resumeUrl": "",
+    "availability": "Open to Software Engineering & AI Roles",
+    "yearsOfExperience": 0,
+    "projectsCompleted": 3,
+    "happyClients": 0,
+    "socials": {
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com",
+      "twitter": "",
+      "instagram": "",
+      "leetcode": "https://leetcode.com"
+    }
+  },
+  "skills": [
+    {
+      "id": "s-1",
+      "category": "Frontend",
+      "name": "React.js",
+      "level": 94,
+      "icon": "Code2"
+    },
+    {
+      "id": "s-2",
+      "category": "Frontend",
+      "name": "JavaScript (ES6+)",
+      "level": 92,
+      "icon": "FileCode"
+    },
+    {
+      "id": "s-3",
+      "category": "Frontend",
+      "name": "Tailwind CSS",
+      "level": 90,
+      "icon": "Palette"
+    },
+    {
+      "id": "s-4",
+      "category": "Frontend",
+      "name": "HTML5 & CSS3",
+      "level": 95,
+      "icon": "Layout"
+    },
+    {
+      "id": "s-5",
+      "category": "Backend",
+      "name": "Node.js",
+      "level": 90,
+      "icon": "Server"
+    },
+    {
+      "id": "s-6",
+      "category": "Backend",
+      "name": "Express.js",
+      "level": 92,
+      "icon": "Cpu"
+    },
+    {
+      "id": "s-7",
+      "category": "Backend",
+      "name": "Java",
+      "level": 88,
+      "icon": "Code2"
+    },
+    {
+      "id": "s-8",
+      "category": "Backend",
+      "name": "Python",
+      "level": 86,
+      "icon": "Terminal"
+    },
+    {
+      "id": "s-9",
+      "category": "Database",
+      "name": "MongoDB & Mongoose",
+      "level": 92,
+      "icon": "Database"
+    },
+    {
+      "id": "s-10",
+      "category": "Database",
+      "name": "SQL & PostgreSQL",
+      "level": 85,
+      "icon": "HardDrive"
+    },
+    {
+      "id": "s-11",
+      "category": "Tools & DevOps",
+      "name": "Docker",
+      "level": 80,
+      "icon": "Cloud"
+    },
+    {
+      "id": "s-12",
+      "category": "Tools & DevOps",
+      "name": "Git & GitHub",
+      "level": 92,
+      "icon": "GitBranch"
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-1",
+      "role": "AI/ML Intern",
+      "company": "Infosys Springboard",
+      "location": "Pune / Remote",
+      "startDate": "Aug 2025",
+      "endDate": "Oct 2025",
+      "current": false,
+      "description": "Designed and developed AI TraceFinder, an AI-powered forensic system for document forgery detection and scanner source identification using machine learning and deep learning techniques.",
+      "highlights": [
+        "Implemented XGBoost and CNN ensemble models for scanner source identification.",
+        "Deployed a Streamlit web application for real-time document authenticity verification and predictive analysis."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "degree": "B.Tech in Information Technology",
+      "institution": "G.H. Raisoni College of Engineering and Management, Wagholi, Pune",
+      "location": "Pune, India",
+      "startYear": "2023",
+      "endYear": "2027 (Pursuing)",
+      "grade": "CGPA: 9.33 / 10",
+      "description": "Core Coursework: Data Structures & Algorithms (DSA), Object-Oriented Programming (OOP), Database Management Systems (DBMS), Computer Networks, Operating Systems, Machine Learning (Basics)."
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "AI Resume Builder",
+      "category": "Fullstack",
+      "description": "Full-stack MERN application with JWT/bcrypt authentication, RESTful APIs, and MongoDB schema supporting dynamic resume templates, custom layouts, and public/private sharing controls. Integrated Gemini-powered AI to enhance resume content and built an image editor with background removal using React Easy Crop and ImageKit.",
+      "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&w=800&q=80",
+      "tags": ["React", "Node.js", "Express", "MongoDB", "Gemini AI", "JWT", "ImageKit", "Tailwind CSS"],
+      "liveUrl": "",
+      "githubUrl": "https://github.com",
+      "featured": true
+    },
+    {
+      "id": "proj-2",
+      "title": "Real-Time Blood Bank & Hospital Coordination System",
+      "category": "Fullstack",
+      "description": "Full-stack platform enabling real-time blood request and response between hospitals and blood banks, improving emergency coordination efficiency. Developed key features including blood inventory management, request tracking, and monthly billing with a scalable backend and responsive UI.",
+      "image": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80",
+      "tags": ["React", "Node.js", "Express", "MongoDB", "REST APIs", "Inventory Management", "Real-time Tracking"],
+      "liveUrl": "",
+      "githubUrl": "https://github.com",
+      "featured": true
+    },
+    {
+      "id": "proj-3",
+      "title": "Quick.ai — Production-Ready AI SaaS Application",
+      "category": "Fullstack",
+      "description": "Production-ready AI SaaS application serving multiple content-generation and image-processing workflows by integrating LLMs, computer vision APIs, authentication systems, and cloud storage. Features scalable architecture with premium subscriptions, AI-powered resume reviews, and real-time user dashboards.",
+      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+      "tags": ["React", "Express.js", "PostgreSQL", "Clerk Auth", "LLMs", "Computer Vision APIs", "Cloud Storage"],
+      "liveUrl": "",
+      "githubUrl": "https://github.com",
+      "featured": true
+    }
+  ],
+  "certificates": [
+    {
+      "id": "cert-1",
+      "name": "Google Cloud Associate Engineer",
+      "issuer": "Google Cloud",
+      "issueDate": "2025",
+      "credentialUrl": "",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80",
+      "skills": ["GCP Compute", "Cloud Storage", "IAM & Security", "Kubernetes / GKE"]
+    },
+    {
+      "id": "cert-2",
+      "name": "Fullstack Web Development",
+      "issuer": "Accredited Certification",
+      "issueDate": "2024",
+      "credentialUrl": "",
+      "image": "https://images.unsplash.com/photo-1607969892193-4a11c0f0d1b4?auto=format&fit=crop&w=600&q=80",
+      "skills": ["React", "Node.js", "Express", "MongoDB", "RESTful Architecture"]
+    },
+    {
+      "id": "cert-3",
+      "name": "Java Programming Specialization",
+      "issuer": "Professional Certification",
+      "issueDate": "2024",
+      "credentialUrl": "",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=600&q=80",
+      "skills": ["Core Java", "OOPs", "Collections Framework", "Multithreading"]
+    }
+  ],
+  "extracurricular": [
+    {
+      "id": "extra-1",
+      "title": "Winner – Smart India Hackathon",
+      "category": "Hackathon",
+      "event": "Smart India Hackathon (Internal Round)",
+      "date": "2025",
+      "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80",
+      "description": "Secured 1st Place in the internal college round of the national Smart India Hackathon for designing and architecting an AI-powered automated workflow solution.",
+      "credentialUrl": ""
+    },
+    {
+      "id": "extra-2",
+      "title": "Top 50 – Blind Coding Competition",
+      "category": "Competitive Coding",
+      "event": "National Blind Coding Championship",
+      "date": "2024",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80",
+      "description": "Ranked in the Top 50 among hundreds of competitive programmers by writing error-free, screen-off C++/Java algorithmic solutions under strict time limits.",
+      "credentialUrl": ""
+    },
+    {
+      "id": "extra-3",
+      "title": "Top Performer – NPTEL (Ethical Writing)",
+      "category": "Academic / Certification",
+      "event": "NPTEL Swayam Certification",
+      "date": "2024",
+      "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800&q=80",
+      "description": "Awarded Top Performer elite grade certification by IIT/NPTEL for exceptional demonstration of ethical technical writing and research methodologies.",
+      "credentialUrl": ""
+    }
+  ]
+}
