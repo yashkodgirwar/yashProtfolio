@@ -1,11 +1,11 @@
 import React from 'react';
-import { ArrowUp, Heart, Lock, Shield, Sparkles } from 'lucide-react';
+import { ArrowUp, Sparkles } from 'lucide-react';
 import { usePortfolio } from '../context/PortfolioContext';
 
 const Footer = () => {
-  const { data, isOwner, setShowAuthModal, exitOwnerMode } = usePortfolio();
+  const { data } = usePortfolio();
   const currentYear = new Date().getFullYear();
-  const name = data?.profile?.name || 'Developer';
+  const name = data?.profile?.name || 'Yash Kodgirwar';
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -38,42 +38,6 @@ const Footer = () => {
           </div>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
-            {/* Discreet Owner Mode Trigger */}
-            <button
-              onClick={() => {
-                if (isOwner) {
-                  exitOwnerMode();
-                } else {
-                  setShowAuthModal(true);
-                }
-              }}
-              style={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '6px',
-                background: 'transparent',
-                border: '1px solid rgba(255, 255, 255, 0.06)',
-                padding: '6px 12px',
-                borderRadius: 'var(--radius-full)',
-                color: 'var(--text-muted)',
-                fontSize: '0.75rem',
-                cursor: 'pointer',
-                transition: 'var(--transition-smooth)'
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.borderColor = 'rgba(139, 92, 246, 0.4)';
-                e.currentTarget.style.color = '#a78bfa';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.06)';
-                e.currentTarget.style.color = 'var(--text-muted)';
-              }}
-              title="Shortcut: Ctrl + Shift + E"
-            >
-              <Lock size={12} />
-              <span>{isOwner ? 'Exit Owner Mode' : 'Owner: Ctrl+Shift+E'}</span>
-            </button>
-
             <button
               onClick={scrollToTop}
               className="btn btn-outline btn-sm btn-icon"

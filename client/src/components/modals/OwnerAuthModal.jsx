@@ -47,8 +47,7 @@ const OwnerAuthModal = () => {
           </div>
           <h3 style={{ fontSize: '1.25rem', marginBottom: '8px' }}>Enter Owner Passcode</h3>
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
-            Secret toggle activated via <code style={{ color: '#a78bfa', background: 'rgba(139,92,246,0.1)', padding: '2px 6px', borderRadius: '4px' }}>Ctrl + Shift + E</code>.
-            Enter PIN (Default: <strong>1234</strong>) or click Unlock.
+            Please enter your secret owner passcode to enable editing mode.
           </p>
         </div>
 
